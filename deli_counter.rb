@@ -6,12 +6,12 @@ def line(array)
   if(array.size==0)
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    string "The line is currently:"
     while(index < array.size) do
       index+=1
-      " #{index}. #{array[index]}"
-      
+      string <<" #{index}. #{array[index]}"
     end
+    puts string
   end
   
 end
