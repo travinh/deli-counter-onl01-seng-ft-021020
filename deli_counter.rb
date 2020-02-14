@@ -7,9 +7,9 @@ def line(array)
     puts "The line is currently empty."
   else
     #puts "The line is currently:"
-    array.uniq.each.with_index(1) do |name,i|
-        puts " #{i}. #{name}"
-    end
+    #array.uniq.each.with_index(1) do |name,i|
+    #   puts " #{i}. #{name}"
+    
   end
   
 end
