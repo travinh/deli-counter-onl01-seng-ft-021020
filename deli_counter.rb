@@ -16,14 +16,18 @@ def line(array)
   
 end
 
-def take_a_number(array, string)
-  array.push(string)
-  string2 = "The line is currently: "
-  index=0
-  while(index < array.size)
-    string << (" #{index+1}. #{array[index]}")
-    index+=1
+def take_a_number(array, name)
+  if(array.size==0)
+    puts "Welcome, #{name}. You are number 1 in line."
+  else
+    array.push(name)
+    string = "The line is currently: "
+    index=0
+    while(index < array.size)
+      string << (" #{index+1}. #{array[index]}")
+      index+=1
+    end
+    puts string
   end
-  puts string2
   
 end
