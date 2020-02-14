@@ -6,7 +6,7 @@ def line(array)
   if(array.size==0)
     puts "The line is currently empty."
   else
-    string "The line is currently:"
+    var string "The line is currently:"
     while(index < array.size)
       string.push(" #{index+1}. #{array[index]}")
       index+=1
