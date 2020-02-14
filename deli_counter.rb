@@ -7,6 +7,7 @@ def line(array)
     puts "The line is currently:"
     array.each.with_index(1) do |name,i|
       puts " #{i}. #{name}"
+    end
   end
   
 end
