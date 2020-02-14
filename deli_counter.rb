@@ -18,7 +18,7 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  if(array.size==0)
+  if(array.size==1)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     string = "The line is currently: "
