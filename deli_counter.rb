@@ -17,6 +17,13 @@ def line(array)
 end
 
 def take_a_number(array, string)
+  array.push(string)
   string2 = "The line is currently: "
+  index=0
+  while(index < array.size)
+    string << (" #{index+1}. #{array[index]}")
+    index+=1
+  end
+  puts string2
   
 end
