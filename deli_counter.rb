@@ -21,7 +21,7 @@ def take_a_number(array, name)
   if(array.size==1)
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    puts "Welcome, #{name}. You are number 1 in line."
+    puts "Welcome, #{name}. You are number #{array.size} in line."
   end
   
 end
