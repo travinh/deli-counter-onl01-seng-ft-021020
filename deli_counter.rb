@@ -17,10 +17,10 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  array.push(name)
   if(array.size==0)
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    array.push(name)
     string = "The line is currently: "
     index=0
     while(index < array.size)
