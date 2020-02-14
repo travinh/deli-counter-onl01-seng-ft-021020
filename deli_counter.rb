@@ -8,7 +8,6 @@ def line(array)
     array.uniq.each.with_index(1) do |name,i|
         puts " #{i}. #{name}"
     end
-  
   end
   
 end
