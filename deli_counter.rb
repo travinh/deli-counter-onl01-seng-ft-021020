@@ -8,7 +8,7 @@ def line(array)
   else
     "The line is currently:"
     while(index < array.size) do
-      " #{index}. #{name}"
+      puts " #{index}. #{name}"
       index+=1
     end
   end
