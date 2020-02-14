@@ -9,7 +9,7 @@ def line(array)
     puts "The line is currently:"
     while(index < array.size) do
       index+=1
-    puts " #{index}. #{array[index]}"
+     " #{index}. #{array[index]}"
       
     end
   end
