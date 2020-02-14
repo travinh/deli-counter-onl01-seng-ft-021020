@@ -8,7 +8,7 @@ def line(array)
   else
     string = "The line is currently:"
     while(index < array.size)
-      string.push(" #{index+1}. #{array[index]}")
+      string << (" #{index+1}. #{array[index]}")
       index+=1
     end
     puts string
