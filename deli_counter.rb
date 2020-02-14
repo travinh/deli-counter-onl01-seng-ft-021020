@@ -21,13 +21,7 @@ def take_a_number(array, name)
   if(array.size==1)
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    string = "The line is currently: "
-    index=0
-    while(index < array.size)
-      string << (" #{index+1}. #{array[index]}")
-      index+=1
-    end
-    puts string
+    puts "Welcome, #{name}. You are number 1 in line."
   end
   
 end
