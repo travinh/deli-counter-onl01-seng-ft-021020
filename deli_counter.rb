@@ -17,5 +17,6 @@ def line(array)
 end
 
 def take_a_number(array, string)
-  string2 = "The line is currently:"
+  string2 = "The line is currently: "
+  
 end
